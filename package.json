@@ -1,0 +1,9 @@
+{
+  "name": "chessinema-registration",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CHESSINEMA registration page with Vercel serverless API routes",
+  "dependencies": {
+    "@supabase/supabase-js": "^2"
+  }
+}
