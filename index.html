@@ -1,57 +1,204 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> regester from for chessinema event</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="pesonal_info" >
-            <label >frist name</label>
-            <input  id="first_name" type="text" required>
-            <label>last name </label>
-            <input  id="last_name" type="text" required>
-            <label> email </label>
-            <input  id="email" type="email" placeholder="******@exmpail.com" required>
-            <label >phone number</label>
-            <input id="nomber" type="number" placeholder="06********" required>
-        </div>
-        <div class="acidmice_ifo">
-          <div class="ecole">
-            <label>ecole</label>
-            
-              <ol >
-                <li>
-                    <label for="fst">FST </label>
-                    <input  id="fst" type="radio" name="institution" value="FST" >              
-                </li>
-                <li>
-                    <label for="fp">FP</label>
-                    <input id="fp" type="radio" name="institution" value="FP">
-                </li>
-                <li>
-                    <label for="ensa">ENSA</label>
-                    <input id="ensa" type="radio" name="institution" value="ENSA">
-                </li>
-                <li>
-                    <label for="encg">ENCG </label>
-                    <input id="encg"type="radio" name="institution" value="ENCG">
-                </li>
-                <li>
-                    <label for="esef">ESEF </label>
-                    <input id="esef" type="radio" name="institution" value="ESEF">
-                </li>
-                <li>
-                    <label for="fe">FE </label>
-                    <input id="fe" type="radio" name="institution" value="FE">
-                </li>
-                <li>
-                    <label for="est">EST </label>
-                    <input id="est" type="radio" name="institution" value="EST">
-                </li>
-            </ol>
-            <label>neveu</label>
-            <input id="level" type="text" >
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>CHESSINEMA — Register</title>
+<meta name="description" content="Register for CHESSINEMA, where chess meets the Halloween night.">
+<meta name="theme-color" content="#09080b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
 
+
+<div class="fog" aria-hidden="true"></div>
+
+
+<svg class="web tl" width="170" height="170" viewBox="0 0 170 170" aria-hidden="true">
+  <g stroke="#7a5090" stroke-width=".7" fill="none">
+    <line x1="0" y1="0" x2="170" y2="0"/><line x1="0" y1="0" x2="170" y2="55"/>
+    <line x1="0" y1="0" x2="130" y2="130"/><line x1="0" y1="0" x2="55" y2="170"/>
+    <line x1="0" y1="0" x2="0" y2="170"/>
+    <path d="M42 0 Q21 21 0 42"/><path d="M85 0 Q42 42 0 85"/>
+    <path d="M128 0 Q64 64 0 128"/><path d="M170 0 Q85 85 0 170"/>
+  </g>
+</svg>
+<svg class="web tr" width="170" height="170" viewBox="0 0 170 170" aria-hidden="true">
+  <g stroke="#7a5090" stroke-width=".7" fill="none">
+    <line x1="0" y1="0" x2="170" y2="0"/><line x1="0" y1="0" x2="170" y2="55"/>
+    <line x1="0" y1="0" x2="130" y2="130"/><line x1="0" y1="0" x2="55" y2="170"/>
+    <line x1="0" y1="0" x2="0" y2="170"/>
+    <path d="M42 0 Q21 21 0 42"/><path d="M85 0 Q42 42 0 85"/>
+    <path d="M128 0 Q64 64 0 128"/><path d="M170 0 Q85 85 0 170"/>
+  </g>
+</svg>
+
+
+<div class="spider-rig" aria-hidden="true">
+  <div class="silk"></div>
+  <svg width="58" height="44" viewBox="0 0 58 44">
+    <ellipse cx="29" cy="32" rx="10" ry="11" fill="#180a2e" stroke="#4a2a70" stroke-width=".8"/>
+    <ellipse cx="29" cy="33" rx="5" ry="5.5" fill="none" stroke="#6a3090" stroke-width=".5" opacity=".4"/>
+    <ellipse cx="29" cy="15" rx="8" ry="7" fill="#180a2e" stroke="#4a2a70" stroke-width=".8"/>
+    <circle cx="26" cy="12" r="1.7" fill="#c8670a"/>
+    <circle cx="29" cy="11" r="1.7" fill="#c8670a"/>
+    <circle cx="32" cy="12" r="1.7" fill="#c8670a"/>
+    <path d="M21 11 Q13 5 3 3" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M21 15 Q11 13 1 14" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M21 19 Q12 21 3 25" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M21 24 Q13 27 5 34" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M37 11 Q45 5 55 3" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M37 15 Q47 13 57 14" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M37 19 Q46 21 55 25" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M37 24 Q45 27 53 34" stroke="#3a1a5a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <line x1="29" y1="7" x2="29" y2="0" stroke="#6a4a8a" stroke-width=".8"/>
+  </svg>
+</div>
+
+
+<div class="bat bat1" aria-hidden="true">🦇</div>
+<div class="bat bat2" aria-hidden="true">🦇</div>
+<div class="bat bat3" aria-hidden="true">🦇</div>
+<div class="pmp" aria-hidden="true">🎃</div>
+<div class="pmp" aria-hidden="true">🎃</div>
+<div class="pmp" aria-hidden="true">🎃</div>
+
+
+<main class="wrap">
+
+  
+  <header class="hdr">
+    <div class="king-wrap" aria-hidden="true">
+      <svg viewBox="0 0 80 118" xmlns="http://www.w3.org/2000/svg">
+        <rect x="36" y="2" width="8" height="21" rx="1.5" fill="#c8a045"/>
+        <rect x="26" y="8" width="28" height="8" rx="1.5" fill="#c8a045"/>
+        <ellipse cx="40" cy="35" rx="16" ry="13" fill="#c8a045"/>
+        <ellipse cx="34" cy="32" rx="4" ry="4.5" fill="#0d0010"/>
+        <ellipse cx="46" cy="32" rx="4" ry="4.5" fill="#0d0010"/>
+        <circle cx="34" cy="32" r="2.2" class="keye"/>
+        <circle cx="46" cy="32" r="2.2" class="keye d"/>
+        <path d="M30 48 Q40 53 50 48 L52 57 Q40 62 28 57Z" fill="#b89030"/>
+        <path d="M24 59 L20 103 Q40 109 60 103 L56 59 Q40 67 24 59Z" fill="#c8a045"/>
+        <path d="M29 70 Q40 74 51 70 M27 82 Q40 86 53 82 M26 93 Q40 97 54 93"
+              stroke="#b89030" stroke-width="1" fill="none" opacity=".45"/>
+        <ellipse cx="40" cy="105" rx="22" ry="7" fill="#c8a045"/>
+        <ellipse cx="40" cy="106" rx="22" ry="7" fill="#b89030"/>
+      </svg>
+    </div>
+    <h1 class="title" id="mainTitle">CHESSINEMA</h1>
+    <p class="sub">Enter the night where chess meets darkness…</p>
+    <div class="tctr">🎫 <span class="n" id="ticketsLeft">—</span> seats remaining</div>
+  </header>
+
+  
+  <div class="card">
+    <form id="regForm" novalidate>
+
+      
+      <section class="sec">
+        <h2 class="stitle">🕸️ Personal Information</h2>
+        <div class="grid">
+          <div class="fg">
+            <label for="firstName">First Name <span class="r">*</span></label>
+            <input type="text" id="firstName" placeholder="Enter your first name" autocomplete="given-name">
+            <span class="ferr" id="e-firstName"></span>
+          </div>
+          <div class="fg">
+            <label for="lastName">Last Name <span class="r">*</span></label>
+            <input type="text" id="lastName" placeholder="Enter your last name" autocomplete="family-name">
+            <span class="ferr" id="e-lastName"></span>
+          </div>
+          <div class="fg full">
+            <label for="email">Email Address <span class="r">*</span></label>
+            <input type="email" id="email" placeholder="your@email.com" autocomplete="email">
+            <span class="ferr" id="e-email"></span>
+          </div>
+          <div class="fg">
+            <label for="phone">Phone Number <span class="r">*</span></label>
+            <input type="tel" id="phone" placeholder="06XXXXXXXX" autocomplete="tel">
+            <span class="ferr" id="e-phone"></span>
+          </div>
+          <div class="fg">
+            <label for="cin">CIN Number <span class="r">*</span></label>
+            <input type="text" id="cin" placeholder="K123456" maxlength="9">
+            <span class="hint">1–2 letters then digits, e.g. K123456</span>
+            <span class="ferr" id="e-cin"></span>
+          </div>
         </div>
-    </body>
+      </section>
+
+      
+      <section class="sec">
+        <h2 class="stitle">🏛️ Academic Information</h2>
+        <div class="fg field-group-spaced">
+          <label>Institution <span class="r">*</span></label>
+          <div class="rgrid" id="instGrid" role="radiogroup" aria-label="Institution">
+            <div class="ro"><input type="radio" name="inst" id="r-fst" value="FST"><label for="r-fst">FST</label></div>
+            <div class="ro"><input type="radio" name="inst" id="r-fp"  value="FP" ><label for="r-fp">FP</label></div>
+            <div class="ro"><input type="radio" name="inst" id="r-ensa" value="ENSA"><label for="r-ensa">ENSA</label></div>
+            <div class="ro"><input type="radio" name="inst" id="r-encg" value="ENCG"><label for="r-encg">ENCG</label></div>
+            <div class="ro"><input type="radio" name="inst" id="r-esef" value="ESEF"><label for="r-esef">ESEF</label></div>
+            <div class="ro"><input type="radio" name="inst" id="r-fe"  value="FE" ><label for="r-fe">FE</label></div>
+            <div class="ro"><input type="radio" name="inst" id="r-est" value="EST"><label for="r-est">EST</label></div>
+          </div>
+          <span class="ferr" id="e-inst"></span>
+        </div>
+        <div class="fg">
+          <label for="level">Level / Year <span class="r">*</span></label>
+          <input type="text" id="level" placeholder="e.g. 2nd year, Master 1, Licence 3…">
+          <span class="ferr" id="e-level"></span>
+        </div>
+      </section>
+
+      
+      <section class="sec tsec">
+        <h2 class="stitle">🎫 Your Ticket</h2>
+        <p class="tnote">A valid ticket number is required. Each ticket is single-use — once claimed, it cannot be reused.</p>
+        <div class="fg">
+          <label for="ticketNum">Ticket Number <span class="r">*</span></label>
+          <input type="text" id="ticketNum" placeholder="Enter your ticket number">
+          <span class="ferr" id="e-ticket"></span>
+        </div>
+        <div class="notkt hidden" id="noTicketMsg">
+          ⚠️ You haven't entered a ticket number. To attend CHESSINEMA you must purchase a ticket first.
+          <div class="brd">
+            📞 Miloud Moustage — 0634 262 883<br>
+            📞 Mohamed Farsaoui — 0604 193 844<br>
+            📧 Chesshouse58@gmail.com
+          </div>
+        </div>
+      </section>
+
+      
+      <div class="sarea">
+        <button type="submit" class="sbtn" id="submitBtn">☠️ CLAIM YOUR SEAT</button>
+        <div class="smsg" id="statusMsg" role="status" aria-live="polite"></div>
+      </div>
+
+    </form>
+  </div>
+  <p class="footer-note">
+    Chess House Club · FST Béni Mellal · USMS
+  </p>
+</main>
+
+
+<div class="overlay" id="successOverlay" role="dialog" aria-modal="true" aria-labelledby="popTitle">
+  <div class="popup">
+    <span class="picon" aria-hidden="true">💀</span>
+    <h2 class="ptitle" id="popTitle">YOUR SOUL IS CLAIMED</h2>
+    <p class="ptext">
+      The darkness has recorded your presence at CHESSINEMA…<br>
+      Dare not miss your appointment with the shadows.
+      <span class="ptkt" id="popTkt"></span>
+    </p>
+    <button class="pclose" id="popCloseBtn">Enter the Darkness →</button>
+  </div>
+</div>
+
+<script src="./app.js" defer></script>
+</body>
 </html>
